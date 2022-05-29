@@ -5,6 +5,8 @@
 This is an agent-based model of central place foraging in Python, using the Mesa framework.
 It simulates a food foraging agent (let's say a squirrel) in a landscape with spatially varying danger. The agent can differ in its risk aversion, i.e. how likely it is to choose food from risky patches. Currently, the agent cannot die, i.e. making risky choices does not have negative consequences. This is a future feature to be implemented.
 
+Mesa allows for an interactive visualization of the simulation using the server.py script.
+
 ## Model Description
 
 Here you can see a visualisation of the model. The agent traverses a grid environment in which food is placed. With each step through the model, the agent uses up a certain amount of energy. Eating food replenishes energy. Food has two important properties: Energy yield and handling time. A forager tries to find food that gives him the maximum amount of energy for the shortest amount of handling time (think of the difficulty of eating a cookie vs eating a walnut).
