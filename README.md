@@ -24,14 +24,16 @@ Collected food is gathered at the central place (e.g., the green circle in the v
 
 #### Food
 #### Squirrel
+#### SafeSpot
 
 ## To Dos
 
 - batchrunner
 - agent death implementation
-- smarter foraging vs. eating decision
+- smarter 'foraging vs. eating' decision
 - increase visualizaiton efficiency (currently it crowds the agent space)
 - better fit to existing ecological models
 - visualization for Jupyter Notebooks
 - General refactoring
-
+- add list of dependencies
+- implement testing procedures (unit test etc.)
