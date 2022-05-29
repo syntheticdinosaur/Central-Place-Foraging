@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri May 27 09:24:27 2022
-
-@author: User
+Log Distribution
+used to randomly draw empty field from neighbors of agent
 """
 
 import numpy as np
