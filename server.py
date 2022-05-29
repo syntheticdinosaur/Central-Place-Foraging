@@ -5,15 +5,6 @@ Central Place Foraging in Squirrels under Predation Risk
 
 Server for interactive visualization of the model in a web browser.
 
-Based on the following papers:
-    1.
-    2.
-
-   
-
-@author:        Joshua Woller
-@affiliation:   University of Tuebingen
-@date:          May 2022
 """
 # Mesa Imports
 from mesa.visualization.modules import CanvasGrid, ChartModule
@@ -178,5 +169,5 @@ def main():
        server.port = SERVER_PORT
        server.launch()
 
-#if __name__ == "__main__":
-#    main()
+if __name__ == "__main__":
+    main()
