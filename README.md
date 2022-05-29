@@ -7,7 +7,9 @@ It simulates a food foraging agent (let's say a squirrel) in a landscape with sp
 
 ## Model Description
 
-Here you can see a visualisation of the model. The agent traverses a grid environment in which food is placed. Different grid squares have a different risk associated with them. The risk distribution is generated using random gaussian fields.
+Here you can see a visualisation of the model. The agent traverses a grid environment in which food is placed. With each step through the model, the agent uses up a certain amount of energy. Eating food replenishes energy. Food has two important properties: Energy yield and handling time. A forager tries to find food that gives him the maximum amount of energy for the shortest amount of handling time (think of the difficulty of eating a cookie vs eating a walnut).
+
+Further, different grid squares have a different risk associated with them. The agent tries to balance the search for food and risk taking. The risk distribution is generated using random gaussian fields so that more vs. less risky areas are spread in a sensible manner.
 
 
 ![GIF animation of the model running](https://github.com/syntheticdinosaur/Central-Place-Foraging/blob/master/docs/images/Model.gif)
