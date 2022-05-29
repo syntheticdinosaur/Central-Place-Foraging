@@ -25,8 +25,13 @@ Collected food is gathered at the central place (e.g., the green circle in the v
 ### Agent Types
 
 #### Food
-#### Squirrel
+Lies around, waiting to be eaten.
+
+#### Forager (Squirrel)
+Walks around, eats and collects food.
+
 #### SafeSpot
+Where food is stored.
 
 ## To Dos
 
