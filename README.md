@@ -18,7 +18,7 @@ Mesa allows for an interactive visualization of the simulation using the server.
 - pathfinding (https://github.com/brean/python-pathfinding)
 
 
-_for more, see requirements.txt (to be included)_
+_for specific versions see requirements.txt_
 
 ## Model Description
 
