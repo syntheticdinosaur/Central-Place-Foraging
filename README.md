@@ -7,6 +7,17 @@ It simulates a food foraging agent (let's say a squirrel) in a landscape with sp
 
 Mesa allows for an interactive visualization of the simulation using the server.py script.
 
+## Dependencies
+
+- mesa
+- gaussian_random_fields (please use this fork, it enables setting a random seed manually: https://github.com/syntheticdinosaur/gaussian-random-fields)
+- matplotlib
+- seaborn
+- numpy
+- nest_asyncio (depends on your IDE; I needed it for Spyder 5)
+- pathfinding (https://github.com/brean/python-pathfinding)
+_for more, see requirements.txt (to be included)_
+
 ## Model Description
 
 Here you can see a visualisation of the model. The agent traverses a grid environment in which food is placed. With each step through the model, the agent uses up a certain amount of energy. Eating food replenishes energy. Food has two important properties: Energy yield and handling time. A forager tries to find food that gives him the maximum amount of energy for the shortest amount of handling time (think of the difficulty of eating a cookie vs eating a walnut).
