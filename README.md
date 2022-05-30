@@ -16,6 +16,8 @@ Mesa allows for an interactive visualization of the simulation using the server.
 - numpy
 - nest_asyncio (depends on your IDE; I needed it for Spyder 5)
 - pathfinding (https://github.com/brean/python-pathfinding)
+
+
 _for more, see requirements.txt (to be included)_
 
 ## Model Description
